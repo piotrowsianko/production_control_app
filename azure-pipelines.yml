@@ -16,7 +16,11 @@ strategy:
       PYTHON_VERSION: '3.6'
     Python37:
       PYTHON_VERSION: '3.7'
-  maxParallel: 3
+    Python39:
+      PYTHON_VERSION: '3.9'
+    Python310:
+      PYTHON_VERSION: '3.10'
+  maxParallel: 5
 
 steps:
 - task: UsePythonVersion@0
